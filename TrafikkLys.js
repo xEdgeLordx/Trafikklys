@@ -33,6 +33,6 @@ allgray()
             setTimeout(yellowtored, 2000)
         }
         function yellowtored(){
-            updateView('RedLight', 'gray','yellow','gray')
+            updateView('stop', 'gray','yellow','gray')
             setTimeout(RedLight, 2000)
         }
